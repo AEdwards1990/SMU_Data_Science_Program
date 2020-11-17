@@ -1,1 +1,22 @@
+For this class there were two group projects. The first group project used Microsoft Data Science Capstone Data, and was given to apply tools such as 
+Exploratory Data Analysis (EDA), Regression Analysis, and Two-Way Anova.
 
+Group Project 1:
+The data used for this project is known as "the microsoft data science Capstone" dataset and can be found at https://www.kaggle.com/nandvard/microsoft-data-science-capstone.
+This data consists of socioeconomic information aggregated by the United States Department of Agriculture Economic Research Service. For each county, the data comes from 
+two undisclosed years, A and B.
+EDA was used to truly explore which information would be used from the data to build a predictive model. During this stage, missing data were imputed using the median, 
+graphs such as histograms was used. Then the assumptions for a regression model was dress. Also, multicollinearity was address. We subsetted the data for year A for analysis.
+Regression Analysis was used for the following interest: to build a  predictive model to predict heart U.S. heart disease mortality at the county level. 
+When building the model, a full model was built first (29 variables), then using forward selection a final model of 10 variables was used.
+After building the models, we compared which model was the best, then proceeded with parameter interpretation.
+As a secondary analysis, we used a two-way Anova. First the assumptions for a two-way Anova was checked, then was applied to determine if the predictors of the model
+have some effect on the response, county-level heart disease mortality rate.
+
+
+Group Project 2: 
+Using UCI Heart Data Analysis, the goal was to use tools such as logistic regression, LDA, and Random Forest to build a model that would predict the presence of 
+heart disease in patients. 
+First EDA was used to familiarize ourself with the data. Then logistic regression was used first. Before using logistic regression, assumptions were check. Using forward selection,
+a final model was built, parameter interpretations were recorded, and model metrics were discussed. Second, Linear Discriminant Analysis (LDA) was used, and then a 
+Random Forest model was built. Final conclusion was over the comparison of the models. 
