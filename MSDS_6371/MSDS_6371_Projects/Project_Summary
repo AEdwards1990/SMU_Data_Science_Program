@@ -1,1 +1,17 @@
+The final group project was an analysis of housing prices in Ames, Iowa. This project consisted of answer two analysis questions.
+For this project data known as "The Ames Housing" was compiled by Dean De Cock, and was pulled form Https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview.
+Analysis Question 1: quantifying and modeling the relationship between living area (sq ft), and the sale price of the home with respect
+to the following neighborhoods: NAmes, Edwards, and BrkSide. 
+To tackle this problem of interest, a model was built to estimate how the sale price of a home in Ames, Iowa is related to the sq footage of its living area, and if 
+its relationship to living size area depends on the neighborhood in which it is located.
+This problem was solved using a multiple linear regression model. To ensure that the data was a good fit for this type of model, the following assumptions were checked:
+Linearity, constant Variance, Normality, Independence, and Cook's D and Leverage.
+Once assumptions were checked, then building and fiting the model to the data was done through logarithmic transformation of both the response and explanatory variables, 
+and model metrics such as R-squared, and the internal CV Press.
 
+Analysis Question 2:Building the most predictive model for the sale prices of all the homes in all the neighborhoods of Ames, Iowa.
+To tackle this problem of interest, forward, stepwise, and backward elimination on the training set was used.
+First, assumptions were checked. Then, for each selection method, to determine which model was the best, metrics such as the adj R-squared and CV PRESS were evaluated.
+
+
+##### SAS was used for project analyses #####
